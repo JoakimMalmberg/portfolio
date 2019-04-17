@@ -1,1 +1,20 @@
 // This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+@import "front-page/hero";
+@import "front-page/usps";
+@import "front-page/sites";
+@import "front-page/speak";
+@import "front-page/contact-form";
+
+
+.full-page{
+	height: 100%;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.container {
+	background-color: $himmelsbla;
+	display: flex;
+	text-align: center;
+}
