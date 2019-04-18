@@ -18,7 +18,7 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' ); ?>
 
-<div class="container-fluid">
+<div class="container">
 	<div>
 		
 		<div class="row full-page hero">
@@ -28,42 +28,13 @@ $container = get_theme_mod( 'understrap_container_type' ); ?>
 		</div>
 
 		<div class="row full-page usps">
-			<div class="col-12 col-lg-6">
-				<h2>Usp 1</h2>
-			</div>
-			<!--/span-->
-			<div class="col-12 col-lg-6">
-				<h2>Usp 2</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-					mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
-					magna mollis euismod. Donec sed odio dui. </p>
-				<p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-			</div>
-			<!--/span-->
+			<?php get_template_part( 'global-templates/jm_usp' ); ?>
 		</div>
 		<!--/row-->
 
 		<div class="row full-page sites">
-			<div class="col-12 col-md-6 col-lg-4">
-				<h2>Site 1</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-					mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
-					magna mollis euismod. Donec sed odio dui. </p>
-			</div>
-			<!--/span-->
-			<div class="col-12 col-md-6 col-lg-4">
-				<h2>Site 2</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-					mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
-					magna mollis euismod. Donec sed odio dui. </p>
-			</div>
-			<!--/span-->
-			<div class="col-12 col-lg-4">
-				<h2>Site 3</h2>
-				<p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-					mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
-					magna mollis euismod. Donec sed odio dui. </p>
-			</div>
+			<?php get_template_part( 'global-templates/jm_portfolio' ); ?>
+
 		</div>
 		<!--/row-->
 
@@ -72,16 +43,9 @@ $container = get_theme_mod( 'understrap_container_type' ); ?>
 				<h2>Speaks</h2>
 			</div>
 		</div>
-
-
-		<div class="row full-page contact-form">
-			<div class="col-12">
-				<h2>Contact Form</h2>
-			</div>
-		</div>
-
-			
-
+			<?php get_template_part( 'global-templates/contact' ); ?>
 	</div>
+	
 </div>
+
 	<?php get_footer(); ?>
