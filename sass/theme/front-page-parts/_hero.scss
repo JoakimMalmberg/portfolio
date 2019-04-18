@@ -1,8 +1,12 @@
 
 .hero{
 	background-color: $himmelsbla;
+
+}
+
+#wrapper-hero{
 	display: flex;
-	align-content: center;
-	text-align: center;
+	flex-direction: column;
+	justify-content: center;
 	align-items: center;
 }
