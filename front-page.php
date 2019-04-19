@@ -32,18 +32,25 @@ $container = get_theme_mod( 'understrap_container_type' ); ?>
 		</div>
 		<!--/row-->
 
+		
+
 		<div class="row full-page sites">
 			<?php get_template_part( 'global-templates/jm_portfolio' ); ?>
 
 		</div>
+		
 		<!--/row-->
 
-		<div class="row full-page speak">
-			<div class="col-12">
-				<h2>Speaks</h2>
-			</div>
+		<div  class="speak">
+			<?php get_template_part( 'global-templates/jm_speak' ); ?>
 		</div>
-			<?php get_template_part( 'global-templates/contact' ); ?>
+
+		<?php get_template_part( 'global-templates/contact' ); ?>
+			
+
+			
+
+			
 	</div>
 	
 </div>
