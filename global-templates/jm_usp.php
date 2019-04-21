@@ -16,16 +16,18 @@ $usps = new WP_Query([
 
 
 if ($usps->have_posts()) { ?>
-	<div class="wrapper" id="wrapper-usps">
-		<div class="container">
-			<div class="row">
 
-				<?php while ($usps->have_posts()) {
-					$usps->the_post();	
-					get_template_part('loop-templates/content', 'jm_usp');
-				}
-				wp_reset_postdata(); ?>
+		<div class="wrapper" id="wrapper-usps">
+			<div class="container">
+				<div class="row">
+
+					<?php while ($usps->have_posts()) {
+						$usps->the_post();	
+						get_template_part('loop-templates/content', 'jm_usp');
+					}
+					wp_reset_postdata(); ?>
+				</div>
 			</div>
 		</div>
-	</div>
+
 <?php } ?>

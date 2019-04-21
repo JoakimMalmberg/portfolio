@@ -1,3 +1,21 @@
-.usps{
-	background-color: green;
+/**
+* USP Style
+**/
+
+#wrapper-usps {
+	text-align: center;
+	color: white!important;
+}
+
+div.row.usps {
+	display: flex;
+	align-items: space-between;
+	align-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+.fa {
+	font-size: 30px;
+	padding-bottom: 10px;
 }

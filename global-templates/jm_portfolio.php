@@ -15,18 +15,20 @@ $port = new WP_Query([
 
 
 if ($port->have_posts()) { ?>
-	<div class="wrapper" id="wrapper-usps">
-		<h1>Portfolio</h1>
-		<div class="container mt-2 port">
-			<div class="row d-flex justify-content-center">
-				
-				<?php while ($port->have_posts()) {
-					$port->the_post();	
-					get_template_part('loop-templates/content', 'jm_portfolio');
-				}
-				wp_reset_postdata(); ?>
 
+		<div class="wrapper" id="wrapper-usps">
+			<h1>Portfolio</h1>
+			<div class="container mt-2 port">
+				<div class="row d-flex justify-content-center">
+					
+					<?php while ($port->have_posts()) {
+						$port->the_post();	
+						get_template_part('loop-templates/content', 'jm_portfolio');
+					}
+					wp_reset_postdata(); ?>
+
+				</div>
 			</div>
 		</div>
-	</div>
+
 <?php } ?>

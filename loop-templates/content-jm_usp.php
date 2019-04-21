@@ -1,5 +1,5 @@
 <div class="col-md">
-	<div class="usp">
+	<div class="usp  blue-box">
 
 		<?php $icon = get_post_meta(get_the_id(), 'icon', true);
 		if($icon){?>

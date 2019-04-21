@@ -1,7 +1,7 @@
 <?php $logo = get_field('logo'); ?>
 
 <div class="flex col d-flex justify-content-center">
-	<div class="portfolio-box usp">
+	<div class="portfolio-box usp ">
 		<div class="thumbnail text-center">
 			
 				<?php if($logo) : ?>
@@ -17,7 +17,7 @@
 					__('Branch: ', 'understrap')
 				); ?>
 
-				<p><?php the_excerpt(); ?></p>
+				<p><?php the_content(); ?></p>
 		</div>
 	</div>
 </div>
