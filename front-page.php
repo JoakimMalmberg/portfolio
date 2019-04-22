@@ -18,24 +18,10 @@ get_header();
 
 $container = get_theme_mod( 'understrap_container_type' ); ?>
 
-		
+<?php get_template_part( 'global-templates/hero' ); ?>
+<?php get_template_part( 'global-templates/jm_usp' ); ?>	
+<?php get_template_part( 'global-templates/jm_portfolio' ); ?>
+<?php get_template_part( 'global-templates/jm_speak' ); ?>
+<?php get_template_part( 'global-templates/contact' ); ?>
 
-		<?php get_template_part( 'global-templates/hero' ); ?>
-
-
-		
-		<?php get_template_part( 'global-templates/jm_usp' ); ?>
-
-	
-		<?php get_template_part( 'global-templates/jm_portfolio' ); ?>
-		
-
-
-		
-			<?php get_template_part( 'global-templates/jm_speak' ); ?>
-
-
-		<?php get_template_part( 'global-templates/contact' ); ?>
-			
-
-	<?php get_footer(); ?>
+<?php get_footer(); ?>

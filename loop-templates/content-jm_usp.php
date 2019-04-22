@@ -1,5 +1,6 @@
-<div class="col-md">
-	<div class="usp  blue-box">
+<div class="flex col d-flex justify-content-center">
+	<div class="portfolio-box usp ">
+		<div class="thumbnail text-center">
 
 		<?php $icon = get_post_meta(get_the_id(), 'icon', true);
 		if($icon){?>
@@ -16,6 +17,6 @@
 				<?php _e('Read More', 'understrap'); ?>
 			</a>
 		<?php }?>
-
+		</div>
 	</div>
 </div>

@@ -1,8 +1,14 @@
-.speak{
+.speak-bar{
 	background-color: $himmelsbla;
 	color: white;
-	height: 100vh;
+	padding: 10px;
 }
+
+.speak{
+	padding-bottom: 10vh;
+	padding-top: 10vh;
+}
+
 
 .progress {
 	border-radius: 20px;

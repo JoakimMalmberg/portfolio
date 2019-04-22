@@ -4,8 +4,6 @@ $bransch_query = new WP_query([
     'post_type' => 'portfolio',
 ]); ?>
 
-<?php $term = get_field('used'); ?>
-
 <div class="flex col d-flex justify-content-center">
 	<div class="portfolio-box usp ">
 		<div class="thumbnail text-center">
