@@ -17,7 +17,7 @@ $port = new WP_Query([
 if ($port->have_posts()) { ?>
 	<div class="container speak">
 		<div class="row d-flex justify-content-center">
-			<h1>Speak</h1>
+			<h1><?php _e('Speak', 'understrap'); ?></h1>
 		</div>
 		<?php while ($port->have_posts()) {
 			$port->the_post();	

@@ -22,14 +22,14 @@ $bransch_query = new WP_query([
 			<p>
 				<?php the_terms(get_the_ID(),
 					'branch',
-					__('Branch: ', 'portfolio')
+					__('Branch: ', 'understrap')
 				); ?>
 			</p>
 			
 			<p>
 				<?php the_terms(get_the_ID(),
 					'used',
-					__('Used: ', 'portfolio')
+					__('Used: ', 'understrap')
 				); ?>
 			</p>
 

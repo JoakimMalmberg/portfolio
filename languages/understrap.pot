@@ -43,6 +43,25 @@ msgstr ""
 "X-Poedit-SearchPath-19: functions.php\n"
 "X-Poedit-SearchPath-20: page-templates\n"
 "X-Poedit-SearchPath-21: inc"
+"X-Poedit-SearchPath-22: jm_portfolio.php\n"
+"X-Poedit-SearchPath-23: jm_speak.php\n"
+"X-Poedit-SearchPath-24: content-jm_portfolio.php\n"
+
+#: loop-templates/content-jm_portfolio.php:32
+msgid "Used: "
+msgstr ""
+
+#: loop-templates/content-jm_portfolio.php:25
+msgid "Branch: "
+msgstr ""
+
+#: global-templates/jm_portfolio.php:20
+msgid "Portfolio"
+msgstr ""
+
+#: global-templates/jm_speak.php:20
+msgid "Speak"
+msgstr ""
 
 #: search.php:29
 #, php-format

@@ -17,7 +17,7 @@ $port = new WP_Query([
 if ($port->have_posts()) { ?>
 
 		<div class="wrapper" id="wrapper-usps">
-			<h1>Portfolio</h1>
+			<h1><?php _e('Portfolio', 'understrap'); ?> </h1>
 			<div class="container mt-2 port">
 				<div class="row d-flex justify-content-center">
 					

@@ -34,3 +34,11 @@ foreach ( $understrap_includes as $file ) {
 	}
 	require_once $filepath;
 }
+
+/**
+ * Theme Setup Declaration
+ */
+function portfolio_theme_setup() {
+	load_theme_textdomain('understrap', get_template_directory(). '/languages');
+}
+add_action('after_setup_theme', 'portfolio_theme_setup');
