@@ -19,11 +19,9 @@ get_header();
 $container = get_theme_mod( 'understrap_container_type' ); ?>
 
 		
-		<div class="row full-page hero">
-			<div class="col-12">
-				<?php get_template_part( 'global-templates/hero' ); ?>
-			</div>
-		</div>
+
+		<?php get_template_part( 'global-templates/hero' ); ?>
+
 
 		
 		<?php get_template_part( 'global-templates/jm_usp' ); ?>
@@ -31,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' ); ?>
 	
 		<?php get_template_part( 'global-templates/jm_portfolio' ); ?>
 		
-		<!--/row-->
+
 
 		
 			<?php get_template_part( 'global-templates/jm_speak' ); ?>
