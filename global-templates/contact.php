@@ -2,7 +2,9 @@
 /**
  * Contact Section fo Front Page
  */
-
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly.
+}
 ?>
 
 <section id="front-page-contact">

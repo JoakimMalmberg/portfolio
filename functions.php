@@ -17,7 +17,11 @@ $understrap_includes = array(
 	'/template-tags.php',                   // Custom template tags for this theme.
 	'/pagination.php',                      // Custom pagination for this theme.
 	'/hooks.php',                           // Custom hooks.
+	'/custom-post-types.php',               // post types
+	'/custom-taxonomies.php',               // taxonomies
 	'/extras.php',                          // Custom functions that act independently of the theme templates.
+	'/acf.php',                             // acf plugin
+	'/acf-fieldgroups.php',                 // acf plugin
 	'/customizer.php',                      // Customizer additions.
 	'/custom-comments.php',                 // Custom Comments file.
 	'/jetpack.php',                         // Load Jetpack compatibility file.
