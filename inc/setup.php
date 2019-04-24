@@ -98,6 +98,32 @@ if ( ! function_exists ( 'understrap_setup' ) ) {
 		// Check and setup theme default settings.
 		understrap_setup_theme_default_settings();
 
+		add_theme_support( 'editor-color-palette',[
+			
+			/*Primary Blue*/
+			[
+				'name' => __('Primary', 'understrap'),
+				'slug' => 'primary',
+				'color' => '#203B8C',
+			],
+
+			/*Sky Blue*/
+			[
+				'name' => __('Sky Blue', 'understrap'),
+				'slug' => 'skyblue',
+				'color' => '#00A0D2',
+			],
+
+			/*Text White*/
+			[
+				'name' => __('Text White', 'understrap'),
+				'slug' => 'text-white',
+				'color' => '#FFFFFF',
+			],
+			
+		] );
+
+		add_theme_support('editor-styles');
 	}
 }
 
